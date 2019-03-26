@@ -1,0 +1,85 @@
+﻿Nome: Alexsander Matheus Nascimento    RA:212360
+Nome: Cicero Roberto Nobre de Oliveira RA: 214581
+
+
+*O Projeto faz a inserção de bebidas alcoolicas, nao alcoolicas e outros.
+
+Exemplo de interação: *Após inicia-lo
+
+1
+Whiskey
+55
+EUA
+Mel
+45
+18
+2
+Coca-Cola
+4
+Canada
+Xarope
+60
+30
+0
+Agua
+2
+Brasil
+H20
+1
+Vinho
+35
+Suecia
+Uva
+20
+8
+2
+Suco
+Brasil
+Manga
+15
+24
+
+
+SAÍDA FINAL:
+========================
+===> BEBIDAS DEFAULT <==
+========================
+1 )
+  NOME: Agua
+  PRECO POR LITRO: 2
+  PAIS DE ORIGEM: Brasil
+  DERIVADA A BASE DE (SABOR):  H20
+===================
+===> ALCOOLICAS <==
+===================
+1 )
+  NOME: Whiskey
+  PRECO POR LITRO: 55
+  PAIS DE ORIGEM: EUA
+  DERIVADA A BASE DE (SABOR):  Mel
+  TEOR ALCOOLICO:  45
+  TEMPO DE DESTILACAO:  18
+2 )
+  NOME: Vinho
+  PRECO POR LITRO: 35
+  PAIS DE ORIGEM: Suecia
+  DERIVADA A BASE DE (SABOR):  Uva
+  TEOR ALCOOLICO:  20
+  TEMPO DE DESTILACAO:  8
+=======================
+===> NAO ALCOOLICAS <==
+=======================
+1 )
+  NOME: Coca-Cola
+  PRECO POR LITRO: 4
+  PAIS DE ORIGEM: Canada
+  DERIVADA A BASE DE (SABOR):  Xarope
+  QUANTIDADE DE ACUCAR:  60
+  QUANTIDADE DE CORANTE:  30
+2 )
+  NOME: Suco
+  PRECO POR LITRO: 2
+  PAIS DE ORIGEM: Brasil
+  DERIVADA A BASE DE (SABOR):  Manga
+  QUANTIDADE DE ACUCAR:  15
+  QUANTIDADE DE CORANTE:  24
