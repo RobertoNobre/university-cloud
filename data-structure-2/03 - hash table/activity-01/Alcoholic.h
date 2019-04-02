@@ -1,0 +1,34 @@
+#ifndef ALCOHOLIC_H
+#define ALCOHOLIC_H
+
+#include "Drink.h" 
+
+
+class Alcoholic : public Drink {  
+  
+ private :
+
+ 	double alcoholContent;
+  	int  timeDes;
+  	
+ public:
+  	Alcoholic(string name = "", double pricePerLiter = 0.0,
+		string originCoutry = "", string derivative = "", 
+		double alcoholContent = 0.0, int timeDes = 0);
+
+	double getAlcoholContent()const;
+	void setAlcoholContent(double x);
+	
+	int getTimeDes()const;
+	void setTimeDes(int t);
+
+    void print()const;  
+    int getHash(int max_number)const;
+    Alcoholic(const Alcoholic& obj);
+	
+};
+	
+#endif
+ 	
+
+
