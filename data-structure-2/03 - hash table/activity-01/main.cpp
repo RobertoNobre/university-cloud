@@ -10,7 +10,7 @@ using namespace std;
 
 void printDrinks(vector<Drink*> drink) {
     cout << "========================" << endl;
-    cout << "===> BEBIDAS DEFAULT <==" << endl;
+    cout << "===> BEBIDAS <==" << endl;
     cout << "========================" << endl;
   for (int i = 0; i < drink.size(); i++) {
     cout << i +1 << " ) " << endl;
