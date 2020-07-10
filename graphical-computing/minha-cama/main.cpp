@@ -94,7 +94,7 @@ void display(void){
 }
 
 void clickmouse(int button, int state, int x, int y){
-	switch(button){
+	switch(button){	
 		case GLUT_LEFT_BUTTON:
 			if(state == GLUT_DOWN) {
 				win-=1;

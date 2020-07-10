@@ -1,6 +1,6 @@
 [Project]
-FileName=main.dev
-Name=Project1
+FileName=cama.dev
+Name=minha cana
 Type=1
 Ver=2
 ObjFiles=
@@ -12,14 +12,14 @@ MakeIncludes=
 Compiler=
 CppCompiler=
 Linker=-lopengl32_@@_-lfreeglut_@@_-lglu32_@@_
-IsCpp=1
+IsCpp=0
 Icon=
 ExeOutput=
 ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=main.exe
+OverrideOutputName=cama.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=1
+UnitCount=4
 
 [VersionInfo]
 Major=1
@@ -51,11 +51,40 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=main.cpp
-CompileCpp=1
+FileName=main.c
+CompileCpp=0
 Folder=
 Compile=1
 Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=image.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=image.h
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=flamengo.rgb
+Folder=
+Compile=0
+Link=0
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
